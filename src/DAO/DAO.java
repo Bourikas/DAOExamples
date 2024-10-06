@@ -8,15 +8,15 @@ import java.util.List;
  * @param <T>
  */
 public interface DAO<T> {
-    DTO.T get(int id) throws SQLException;
+    DTO.Employee get(int id) throws SQLException;
 
-    List<DTO.T> getAll() throws SQLException;
+    List<DTO.Employee> getAll() throws SQLException;
 
-    int save(DTO.T t) throws SQLException;
+    int save(DTO.Employee t) throws SQLException;
 
-    int insert (DTO.T t) throws SQLException;
+    int insert (DTO.Employee t) throws SQLException;
 
-    int update(DTO.T t) throws SQLException;
+    int update(DTO.Employee t) throws SQLException;
 
-    int delete(DTO.T t);
+    int delete(DTO.Employee t);
 }

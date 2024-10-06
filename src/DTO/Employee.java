@@ -1,6 +1,6 @@
 package DTO;
 
-public class T {
+public class Employee {
 
     private int id;
     private int employeeId;
@@ -8,7 +8,7 @@ public class T {
     private String lastName;
     private int departmentId;
 
-    public T(int id, int employeeId, String firstName, String lastName, int departmentId) {
+    public Employee(int id, int employeeId, String firstName, String lastName, int departmentId) {
         this.id = id;
         this.employeeId = employeeId;
         this.firstName = firstName;
